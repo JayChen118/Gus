@@ -1,7 +1,9 @@
-package za.co.riggaroo.gus;
+package za.co.riggaroo.gus.presentation.search;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import za.co.riggaroo.gus.R;
 
 public class UserSearchActivity extends AppCompatActivity {
 
