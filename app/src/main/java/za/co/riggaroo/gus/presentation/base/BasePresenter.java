@@ -19,6 +19,7 @@ public class BasePresenter<T extends MvpView> implements MvpPresenter<T> {
     }
 
     @Override
+
     public void detachView() {
         compositeSubscription.clear();
         view = null;
