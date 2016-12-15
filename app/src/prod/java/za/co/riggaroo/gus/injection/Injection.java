@@ -47,6 +47,7 @@ public class Injection {
                     .addConverterFactory(GsonConverterFactory.create())
                     .addCallAdapterFactory(RxJavaCallAdapterFactory.create());
             retrofitInstance = retrofit.build();
+
         }
         return retrofitInstance;
     }
